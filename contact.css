@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #777;
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-form .form-half {
+    display: inline-block;
+    width: 48%;
+    margin-right: 2%;
+}
+
+.contact-form .form-half:last-child {
+    margin-right: 0;
+}
+
+.contact-form input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+.contact-form button {
+    padding: 15px 20px;
+    background-color: #ff3366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.contact-form button:hover {
+    background-color: #ff6699;
+}
+
+.contact-form a {
+    color: #ff3366;
+    text-decoration: none;
+}
+
+.contact-form a:hover {
+    text-decoration: underline;
+}
